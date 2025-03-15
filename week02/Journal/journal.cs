@@ -8,6 +8,7 @@ public class journal
        {
         //Creates a new instance of Journal
         journal journal = new journal();
+        DateTime theCurrentTime = DateTime.Now;
 
         //Welcome banner
         Console.WriteLine("Welcome to Your Daily Journal!");
@@ -48,12 +49,12 @@ public class journal
 
                 //Exits program
                 case "5":
-                Console.WriteLine("Goodbye!");
+                Console.WriteLine($"{DateTime.Now} Goodbye!");
                 return;
 
                 //Handles invalid input
                 default:
-                Console.WriteLine("Invalid selection, please enter a number 1-5.");
+                Console.WriteLine($"{DateTime.Now} Invalid selection, please enter a number 1-5.");
                 break;
             }
         }
