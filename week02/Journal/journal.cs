@@ -52,7 +52,7 @@ public class journal
                 Console.WriteLine($"{DateTime.Now} Goodbye!");
                 return;
 
-                //Handles invalid input
+                
                 default:
                 Console.WriteLine($"{DateTime.Now} Invalid selection, please enter a number 1-5.");
                 break;
