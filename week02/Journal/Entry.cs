@@ -11,7 +11,7 @@ public PromptGenerator promptGenerator;
         promptGenerator = new PromptGenerator();
     }
 
-    //Adds a new entry to the journal from user input
+    //Adds new entry to the journal from user input
     DateTime TheCurrenyTime= DateTime.Now;
     public void AddEntry() {
     
@@ -30,7 +30,7 @@ public PromptGenerator promptGenerator;
         }
     }
 
-    //Saves Entries to a file named by the user
+    //Saves Entries to a file named by user
     public void SaveToFile() {
         Console.Write("Please enter the filename you would like to save to: ");
         string filename = Console.ReadLine();
