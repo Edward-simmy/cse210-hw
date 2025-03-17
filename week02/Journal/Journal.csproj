@@ -1,10 +1,13 @@
 using System;
+
 using System.IO;
-class Program
-{
+
+
+public class journal
+ {
     static void Main(string[] args)
-{
-        //Creates a new instance of Journal
+      {
+        //new instance of Journal
         Journal journal = new Journal();
 
         //Welcome banner
