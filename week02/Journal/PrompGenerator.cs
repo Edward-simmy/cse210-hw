@@ -1,5 +1,4 @@
 
-
 using System;
 
 public class PromptGenerator {
@@ -14,7 +13,7 @@ public List<string> Prompts {get; set;}
         };
     }
 
-    //Generates a random prompt from the list
+    //Generates random prompt from the list
     public string GenerateRandomPrompt() {
         Random random = new Random();
         int index = random.Next(Prompts.Count);
