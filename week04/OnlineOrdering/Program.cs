@@ -62,9 +62,9 @@ Public class order
               Console.WriteLine("\n1. Fries + pair of sausages @(Kes350.00) \n2.A Milkshake (Kes150.50) \n3. Fries + Burger @(200.80)");
               
               
-              pricing();
-              quantity();
-              subTotal();
+                pricing();
+                quantity();
+                subTotal();
     
               Console.Write("Please Provide Delivering Location: ")
               response = Console.ReadLine();
